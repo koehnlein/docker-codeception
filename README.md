@@ -2,9 +2,10 @@
 
 Docker image to run your automated acceptance tests in deplyoment pipelines, e.g. GitLab CI.
 
-## Docker Image
+## Docker Images
 
-* `akoehnlein:codeception`
+* `akoehnlein/codeception`
+* `akoehnlein/codeception:nodejs` (including node.js and npm)
 
 ## GitLab CI
 
