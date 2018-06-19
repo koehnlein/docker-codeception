@@ -1,4 +1,4 @@
-FROM composer
+FROM composer:1
 
 RUN composer global require codeception/codeception && \
     composer clear-cache
