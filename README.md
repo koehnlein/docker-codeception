@@ -17,7 +17,7 @@ stages:
 
 test staging after deployment:
   stage: acceptance
-  image: akoehnlein/composer
+  image: akoehnlein/codeception
   services:
     - name: selenium/standalone-chrome
       alias: selenium
